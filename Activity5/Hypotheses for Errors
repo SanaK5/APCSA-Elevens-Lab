@@ -1,0 +1,11 @@
+Buggy1: There is most likely an error in the public boolean isEmpty() method in Deck.java where maybe if size is not 0 
+  then it returns true or there might be only one equal sign instead of 2 for size==0. Another possible error is if there 
+  is a missing return statement for when it is not true
+Buggy2: In the constructor for Deck.java, they could have forgotten to assign a value to size such as suits multiplied 
+  by ranks. 
+Buggy3: In the constructor for Deck.java, they could have forgotten to call the shuffle() method thereby leading to 
+  the cards not being shuffled before dealing. Also, there might be a problem in the actual shuffle() method with 
+  swapping the cards.
+Buggy4: In the constructor for Deck.java, there might be a missing initializing statement for the ArrayList of cards 
+  thereby causing the one card to not be added to a deck and creating a null card because the trivial constructor 
+  initializes an ArrayList to null.
